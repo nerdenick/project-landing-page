@@ -8,7 +8,6 @@
     font-weight: bold;
     height: 100vh;
     margin: 0;
-    box-sizing: border-box;
   }
 
   .header {
@@ -44,8 +43,9 @@
   img {
     float: left;
     width:  auto;
-    height: 315px;
+    height: 3331px;
     object-fit: cover;
+    border-radius: 10%;
 }
 
   .hero {
@@ -57,17 +57,16 @@
   }
 
   .sub-hero {
-    margin: 40px;
+    margin: 40px 40px 40px 80px;
     flex: 1;
     display: flex;
     flex-direction: column;
-    align-self: center;
+    justify-content: center;
   }
 
   .sub-sub-hero {
     margin: 18px;
     display: flex;
-    flex: 1;
     flex-direction: column;
   }
 
