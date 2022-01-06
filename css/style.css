@@ -65,7 +65,7 @@
   }
 
   .sub-sub-hero {
-    margin: 18px;
+    margin-bottom: 18px;
     display: flex;
     flex-direction: column;
   }
@@ -80,7 +80,6 @@
     font-size: 18px;
     padding: 8px 16px 8px 16px;
     border-radius: 8px;
-    margin: 0px 18px;
   }
 
   .hero-image {
