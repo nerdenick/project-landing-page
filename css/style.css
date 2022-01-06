@@ -49,7 +49,7 @@
 }
 
   .hero {
-    justify-content: flex-start;
+    justify-content: space-around;
     flex: 1;
     padding: 20px 150px;
     display: flex;
@@ -123,6 +123,7 @@
     flex-direction: column;
     text-align: center;
     padding: 18px;
+    font-weight: 300;
   }
 
   .content-img {
@@ -132,22 +133,23 @@
   }
 
   .info {
-    justify-content: center;
-    align-self: center;
     flex-direction: column;
     flex: 4;
     padding: 20px;
     display: flex;
+    background-color: rgb(32, 32, 32)
   }
 
   .test-box {
     display: flex;
     flex-direction: column;
+    align-self: center;
     height: auto;
     width: 600px;
   }
 
   .pix {
+    font-size: 24px;
     font-weight: 200;
     margin: 100px 0px 10px 0px;
   }
@@ -155,18 +157,48 @@
   .pix-josh {
     align-self: flex-end;
     padding: 0px 50px;
+    margin: 10px 0px 100px 0px;
   }
 
   .closing {
-    justify-content: center;
+    justify-content: space-between;
     flex: 1;
-    padding: 20px;
+    margin: 80px 150px 80px 150px;
+    padding: 50px 20px;
+    background-color: rgb(230, 0, 19);
     display: flex;
+    border-radius: 8px;
+  }
+
+  .inquiries {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+  }
+
+  .inquiries-title {
+    font-size: 32px;
+  }
+
+  .inquiries-sign {
+    font-weight: 400;
+    font-size: 18px;
+  }
+
+  .inquiries-button {
+    font-size: 18px;
+    font-weight: 600;
+    margin-right: 100px;
+    padding: 0px 30px;
+    color: white;
+    background-color: rgba(230, 0, 19, 0.8);
+    border-radius: 8px;
   }
 
   .footer {
     padding: 10px 20px 10px 20px;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    background-color: rgba(230, 0, 19, 0.8);
+    font-weight: 300;
   }
